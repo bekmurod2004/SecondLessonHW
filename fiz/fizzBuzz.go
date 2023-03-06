@@ -1,8 +1,8 @@
-package main
+package fiz
 
 import "fmt"
 
-func fizbuzer(a int) {
+func Fizbuzer(a int) {
 	// fizbuz
 
 	for i := 1; i <= a; i++ {

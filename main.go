@@ -1,17 +1,23 @@
 package main
 
-import "fmt"
+
+import ("fmt"
+"lessonGo/seconLesson/SecondLessonHW/fact"
+"lessonGo/seconLesson/SecondLessonHW/fib"
+"lessonGo/seconLesson/SecondLessonHW/fiz"
+
+)
 
 func main() {
 	var number int 
 	fmt.Scanln(&number)
 	fmt.Println()
 
-	fizbuzer(number)
+	fiz.Fizbuzer(number)
 	fmt.Println()
 
-	fib(number)
+	fib.Fib(number)
 	fmt.Println()
 	
-	fact(number)
+	fact.Fact(number)
 }

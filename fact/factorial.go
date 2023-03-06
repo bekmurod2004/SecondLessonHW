@@ -1,15 +1,15 @@
-package main
+package fact
 
 import "fmt"
 
-func fact(a int) {
+func Fact(a int) {
 
 	// factorial
 
-	var ans int = 0
+	var ans int = 1
 	
 	for i := 0; i < a; i++ {
-		ans += a - i
+		ans *= a - i
 	
 	}
 	
